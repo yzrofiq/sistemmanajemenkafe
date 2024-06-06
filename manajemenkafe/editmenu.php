@@ -4,8 +4,7 @@ if (!isset($_SESSION['id'])) {
     echo "<script>window.location.href = 'login.html';</script>";
     exit();
 }
-<p>
-<p>
+
 if (isset($_GET['id'])) {
     $menu_id = $_GET['id'];
 
