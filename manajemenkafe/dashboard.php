@@ -22,6 +22,7 @@ if (!isset($_SESSION['id'])) {
             background-color: #f8f9fa;
             color: #212529;
         }
+        <p>
 
         .sidebar {
             position: fixed;
